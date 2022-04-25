@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <title>Ejercicio Obligatorio Bootstrap - Codo a Codo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Codo a Codo</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form> 
+        </div>
+      </div>
+    </nav>  
+  </header>
+
+  <main>
+
+    <!-- SECCIÓN TARJETAS -->
+    <section>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="img/html5.png" class="card-img-top" alt="Logo Html5">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 1</h5>
+            <p class="card-text">Contendio de Card</p>
+            <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/css3.png" class="card-img-top" alt="Logo Css3">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 2</h5>
+            <p class="card-text">Contendio de Card</p>
+            <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/bootstrap.png" class="card-img-top" alt="Logo Bootstrap">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 3</h5>
+            <p class="card-text">Contendio de Card</p>
+            <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+          </div>
+        </div>
+      </div>
+
+    </section>  
+
+    <!-- SECCIÓN FORMULARIO -->
+    <section>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca comparta su email.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>   
+
+    </section>
+
+  </main>
+
+  <script src="assets/js/bootstrap.min.js"></script>  
+</body>
+</html>
